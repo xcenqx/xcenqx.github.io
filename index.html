@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="x_ico.png" sizes="48x48" type="image/png">
+    <style>
+        body {
+            background-color: whitesmoke;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: black;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .loading-dots {
+            display: inline-block;
+            animation: loadingAnimation 1.5s infinite;
+        }
+
+        @keyframes loadingAnimation {
+            0%, 20% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 3em;
+            }
+
+            .loading-dots {
+                font-size: 3em;
+            }
+        }
+    </style>
+    <title>Przerwa techniczna - XcenqX Developer</title>
+</head>
+<body>
+    <div>
+        <h1>PRZERWA TECHNICZNA<p class="loading-dots">...</p></p></h1>
+        <h4>| Przewidywany czas zakończenia: 01/12/2023 |</h4>
+    </div>
+</body>
+</html>
